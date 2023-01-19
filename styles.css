@@ -1,0 +1,116 @@
+.bluebackground {
+    display: flex;
+    background-color: #1d539e;
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+}
+
+.bluebackground h1 {
+    color: #ffffff;
+    margin-top: 80px;
+    font-size: 48px;
+    margin-bottom: 20px;
+    width: 553px;
+}
+
+.bluebackground span {
+    color: #ffffff;
+    font-size: 18px;
+    width: 50px;
+}
+
+.prices {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -150px;
+    justify-content: center;
+}
+
+.item {
+    width: 355px;
+    height: 470px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.item:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+.headerbasic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: yellow;
+    width: 355px;
+    height: 76px;
+    position: relative;
+    top: -30px;
+    left: -30px;
+    border-radius: 15px 15px 0 0;
+    padding: 0 30px;
+}
+
+.prices span {
+    font-size: 20px !important;
+    
+}
+
+.item strong {
+    font-size: 36px;
+}
+.item p {
+    font-size: 18px;
+}
+
+.valor {
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.item li {
+    margin-top: 20px;
+    display: block;
+}
+
+.item ul {
+    margin-top: 25px;
+    align-items: center;
+}
+
+.item span {
+    font-size: 14px;
+}
+
+.prices img {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.font  {
+    font-size: 94px;
+}
+
+.basictext {
+    color: #1D539E;
+}
+
+.text {
+    font-weight:600;
+ }
+
+
+.textpopular {
+    display: flex;
+    height: 32px;
+    width: 104px;
+    border-radius: 40px;
+    background-color: #1D539E;
+    justify-content: center;
+    color: #ffffff;    
+    font-size: 40px;
+    
+}
